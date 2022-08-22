@@ -1,5 +1,5 @@
 server:
-  port: 1040 # user服务端口号
+  port: 1041 # user服务端口号
 
 eureka:
   client:
@@ -8,7 +8,7 @@ eureka:
     registery-fetch-interval-seconds: 10
   instance:
     prefer-ip-address: true # 开启使用IP地址进行注册
-    instance-id: pay-server:1040 # 修改实例Id
+    instance-id: pay-server:1041 # 修改实例Id
 
 spring:
   application: # 指定此服务的应用名称
